@@ -1,5 +1,12 @@
 package arrayList;
 
+/**
+ * 
+ * @author Brandon Nhem
+ * @author Anthony Pham
+ *
+ */
+
 public class Card {
 
 	private char suit;
@@ -75,4 +82,32 @@ public class Card {
 		return cardValue;
 	}
 	
+	public void setFaceUp() {
+		/**
+		 * setFaceUp: Sets card to be faced up.
+		 */
+		
+		faceUp = true;
+	}
+	
+	public void setFaceDown() {
+		/**
+		 * setFaceDown: Sets card to be faced down.
+		 */
+		
+		faceUp = false;
+	}
+	
+	public boolean isFaceUp() {
+		/**
+		 * isFaceUp: Detects if the card is faced up.
+		 * Return: Returns true if the card is faced up, false if faced down
+		 */
+		
+		if (faceUp == true) {
+			return true;
+		} else {
+			return false;
+		}
+	}
 }
