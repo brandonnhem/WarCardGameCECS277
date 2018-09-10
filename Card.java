@@ -20,7 +20,7 @@ public class Card {
 		faceUp = true;
 	}
 	
-	public void Display()
+	public void display()
 	{
 		/**
 		 * Display: Displays the cards. If faced up, values appear.
