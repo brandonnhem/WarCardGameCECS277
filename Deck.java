@@ -4,7 +4,13 @@ package arrayList;
  * 
  * @author Brandon Nhem
  * @author Anthony Pham
- *
+ * Date - 9/10/18
+ * This class is the Deck class in which we can have an ArrayList of Cards.
+ * 
+ * Inputs:  -Deck(int) requires any integer value to create an empty deck instead of a full deck
+ * 			-setPlayer(Deck) requires a deck to deal the cards from and to the player's deck
+ * Outputs: -sizeOfDeck returns the size of the deck
+ * 			-deal returns a Card whilst decreasing the size of the deck it took the card from
  */
 
 import java.util.ArrayList;

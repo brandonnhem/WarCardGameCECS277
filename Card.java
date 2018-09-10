@@ -4,7 +4,12 @@ package arrayList;
  * 
  * @author Brandon Nhem
  * @author Anthony Pham
- *
+ * Date - 9/10/18
+ * This class is the Card class in which we can set the rank and suit of the card.
+ * 
+ * No Inputs required
+ * Outputs: -getValue gives the value of a card or the value of a hand
+ * 			-isFaceUp gives a boolean value if the card is faced up or down
  */
 
 public class Card {

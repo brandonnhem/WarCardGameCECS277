@@ -4,7 +4,11 @@ package arrayList;
  * 
  * @author Brandon Nhem
  * @author Anthony Pham
- *
+ * Date - 9/10/18
+ * This class is the WarMain class in which we set the logic of the game to flow.
+ * 
+ * No Inputs required
+ * No Outputs
  */
 
 public class WarMain {
